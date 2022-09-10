@@ -17,4 +17,8 @@ public class DemoApplication {
 	String sayHello() {
 		return "APIM Test!";
 	}
+	@RequestMapping("/whatsup")
+	String faq() {
+		return "nothing much!";
+	}
 }
